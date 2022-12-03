@@ -32,7 +32,7 @@ namespace ProjetoAdilsonM2
             prod.Pesso = double.Parse(txtPesso.Text);
             if (txtId.Text != "" && txtNome.Text != "" && txtDescricao.Text != "" && txtMarca.Text != "" && txtValor.Text != "")
             {
-                btnCadastrar.Enabled = true;
+                
                 ProdutoDAO produto = new ProdutoDAO();
                 if (produto.Cadastrar(prod))
                 {
@@ -69,6 +69,11 @@ namespace ProjetoAdilsonM2
             this.Hide();
             Form1 form = new Form1();
             form.ShowDialog();
+        }
+
+        private void txtId_TextChanged(object sender, EventArgs e)
+        {
+            btnCadastrar.Enabled = true;
         }
     }
 }

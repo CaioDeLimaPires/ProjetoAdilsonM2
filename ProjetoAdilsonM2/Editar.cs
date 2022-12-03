@@ -104,6 +104,7 @@ namespace ProjetoAdilsonM2
 
         private void btnAtualizar_Click(object sender, EventArgs e)
         {
+            btnAtualizar.Enabled = false;
             txtId.Enabled = true;
             Produto prod = new Produto();
             prod.Id = int.Parse(txtId.Text);
@@ -131,10 +132,12 @@ namespace ProjetoAdilsonM2
                 txtLargura.Clear();
                 txtValor.Clear();
                 txtPesso.Clear();
+                btnBuscar.Enabled = true;
             }
             else
             {
                 MessageBox.Show("Falha ao realizar a Edição dos dados", "ERRO!!!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                btnBuscar.Enabled = true;
             }
         }
 

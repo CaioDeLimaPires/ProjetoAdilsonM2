@@ -174,6 +174,7 @@
             this.txtId.Name = "txtId";
             this.txtId.Size = new System.Drawing.Size(100, 18);
             this.txtId.TabIndex = 10;
+            this.txtId.TextChanged += new System.EventHandler(this.txtId_TextChanged);
             // 
             // txtNome
             // 

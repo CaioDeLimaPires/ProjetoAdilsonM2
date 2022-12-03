@@ -837,23 +837,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\luiss\\.nuget\\packages\\": {},
+    "C:\\Users\\kaiqu\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\luiss\\Source\\Repos\\ProjetoAdilsonM21\\ProjetoAdilsonM2\\ProjetoAdilsonM2.csproj",
+      "projectUniqueName": "C:\\Users\\kaiqu\\Source\\Repos\\ProjetoAdilsonM3\\ProjetoAdilsonM2\\ProjetoAdilsonM2.csproj",
       "projectName": "ProjetoAdilsonM2",
-      "projectPath": "C:\\Users\\luiss\\Source\\Repos\\ProjetoAdilsonM21\\ProjetoAdilsonM2\\ProjetoAdilsonM2.csproj",
-      "packagesPath": "C:\\Users\\luiss\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\luiss\\Source\\Repos\\ProjetoAdilsonM21\\ProjetoAdilsonM2\\obj\\",
+      "projectPath": "C:\\Users\\kaiqu\\Source\\Repos\\ProjetoAdilsonM3\\ProjetoAdilsonM2\\ProjetoAdilsonM2.csproj",
+      "packagesPath": "C:\\Users\\kaiqu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kaiqu\\Source\\Repos\\ProjetoAdilsonM3\\ProjetoAdilsonM2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\luiss\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kaiqu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -903,7 +903,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }
