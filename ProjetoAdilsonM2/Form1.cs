@@ -11,15 +11,16 @@ namespace ProjetoAdilsonM2
             Application.Exit();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void sairToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            Application.Exit();
         }
 
-        private void btnProduto_Click(object sender, EventArgs e)
+        private void produtosToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FormProduto form = new FormProduto();
-            form.ShowDialog();
+            form.MdiParent = this;
+            form.Show();
         }
     }
 }

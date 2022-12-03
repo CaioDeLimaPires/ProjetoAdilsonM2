@@ -51,7 +51,6 @@
             this.btnCadastrar = new System.Windows.Forms.Button();
             this.txtValor = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnVoltar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -301,28 +300,12 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // btnVoltar
-            // 
-            this.btnVoltar.BackColor = System.Drawing.Color.Transparent;
-            this.btnVoltar.FlatAppearance.BorderSize = 0;
-            this.btnVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnVoltar.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnVoltar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(47)))), ((int)(((byte)(119)))));
-            this.btnVoltar.Location = new System.Drawing.Point(13, 5);
-            this.btnVoltar.Name = "btnVoltar";
-            this.btnVoltar.Size = new System.Drawing.Size(49, 44);
-            this.btnVoltar.TabIndex = 46;
-            this.btnVoltar.Text = "<<";
-            this.btnVoltar.UseVisualStyleBackColor = false;
-            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
-            // 
             // CadastrarForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(222)))), ((int)(((byte)(0)))));
             this.ClientSize = new System.Drawing.Size(573, 414);
-            this.Controls.Add(this.btnVoltar);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.txtValor);
             this.Controls.Add(this.btnCadastrar);
@@ -345,9 +328,11 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "CadastrarForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "CadastrarForm";
+            this.Text = "Cadastrar";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -378,6 +363,5 @@
         private Button btnCadastrar;
         private TextBox txtValor;
         private PictureBox pictureBox1;
-        private Button btnVoltar;
     }
 }

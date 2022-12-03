@@ -32,7 +32,6 @@
             this.btnBuscar = new System.Windows.Forms.Button();
             this.listView1 = new System.Windows.Forms.ListView();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnVoltar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -68,34 +67,20 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // btnVoltar
-            // 
-            this.btnVoltar.BackColor = System.Drawing.Color.Transparent;
-            this.btnVoltar.FlatAppearance.BorderSize = 0;
-            this.btnVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnVoltar.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnVoltar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(47)))), ((int)(((byte)(119)))));
-            this.btnVoltar.Location = new System.Drawing.Point(19, 0);
-            this.btnVoltar.Name = "btnVoltar";
-            this.btnVoltar.Size = new System.Drawing.Size(49, 44);
-            this.btnVoltar.TabIndex = 47;
-            this.btnVoltar.Text = "<<";
-            this.btnVoltar.UseVisualStyleBackColor = false;
-            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
-            // 
             // BuscarForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(222)))), ((int)(((byte)(0)))));
             this.ClientSize = new System.Drawing.Size(1003, 411);
-            this.Controls.Add(this.btnVoltar);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.btnBuscar);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "BuscarForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "BuscarForm";
+            this.Text = "Consultar";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
@@ -106,6 +91,5 @@
         private DataGridView dataGridView1;
         private ListView listView1;
         private PictureBox pictureBox1;
-        private Button btnVoltar;
     }
 }

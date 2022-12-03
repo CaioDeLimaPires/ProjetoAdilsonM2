@@ -35,7 +35,6 @@
             this.btnApagar = new System.Windows.Forms.Button();
             this.btnEditar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnVoltar = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -112,21 +111,6 @@
             this.label1.TabIndex = 8;
             this.label1.Text = "Produtos";
             // 
-            // btnVoltar
-            // 
-            this.btnVoltar.BackColor = System.Drawing.Color.Transparent;
-            this.btnVoltar.FlatAppearance.BorderSize = 0;
-            this.btnVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnVoltar.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnVoltar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(47)))), ((int)(((byte)(119)))));
-            this.btnVoltar.Location = new System.Drawing.Point(9, 1);
-            this.btnVoltar.Name = "btnVoltar";
-            this.btnVoltar.Size = new System.Drawing.Size(49, 44);
-            this.btnVoltar.TabIndex = 48;
-            this.btnVoltar.Text = "<<";
-            this.btnVoltar.UseVisualStyleBackColor = false;
-            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
-            // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(47)))), ((int)(((byte)(119)))));
@@ -146,12 +130,13 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(222)))), ((int)(((byte)(0)))));
             this.ClientSize = new System.Drawing.Size(394, 292);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.btnVoltar);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormProduto";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FormProduto";
+            this.Text = "Produto";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -167,7 +152,6 @@
         private Button btnApagar;
         private Button btnEditar;
         private Label label1;
-        private Button btnVoltar;
         private Panel panel1;
     }
 }
